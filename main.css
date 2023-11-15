@@ -407,6 +407,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     gap: 30px;
   }
   body .container > .search-div > .temp_celsiy > h4 {
+    text-align: center;
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
