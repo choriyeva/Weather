@@ -376,6 +376,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     transform: translate(80px, -340px);
   }
   body .container > .search-div > .input-c > input {
+    width: 100%;
     background: transparent;
     border: none;
     text-align: left;
