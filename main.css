@@ -169,7 +169,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     background: url("./images/bacround-w.png");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   body .container {
     max-width: 768px;
@@ -351,7 +351,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     flex-shrink: 0;
   }
   body .container > .search-div {
-    width: 375px;
+    max-width: 450px;
     flex-shrink: 0;
     border-left: 0px solid rgba(255, 255, 255, 0.14);
     border-top: 5px solid rgba(255, 255, 255, 0.14);
