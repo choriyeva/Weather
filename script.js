@@ -7,6 +7,7 @@ let humadity=document.getElementById("humadity");
 let wind=document.getElementById("wind");
 let temp_max=document.getElementById("temp_max");
 let temp_min=document.getElementById("temp_min");
+let search_img=document.getElementById("search-img");
 
 
 
@@ -47,6 +48,8 @@ input.addEventListener("keyup",(event)=>{
         getData(input.value);
         input.value="";
     }
+    
+    search_img.addEventListener("click",getData(input.value))
 });
 
 

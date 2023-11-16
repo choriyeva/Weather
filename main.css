@@ -83,7 +83,6 @@ body .container > .search-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding-top: 40px;
   padding-left: 35px;
   gap: 54px;
@@ -328,7 +327,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     display: flex;
     width: 100%;
     justify-content: left;
-    gap: 10px;
+    gap: 15px;
   }
   body .container > .temp > .temp_c > h1 {
     font-size: 64px;
@@ -364,7 +363,7 @@ body .container > .search-div > .temp_celsiy > .max > .celciusw > h5 {
     background-size: cover;
     align-items: center;
     flex-direction: column;
-    padding-top: 0px;
+    padding-top: 55px;
     padding-left: 0px;
     gap: 54px;
   }
