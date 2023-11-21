@@ -27,13 +27,13 @@ fetch(url,options).then(el=>el.json()).then(data=>{
     celsiy.textContent=`${data.current.temp_c}°`;
     country.textContent=`${data.location.name}`;
     timee.textContent=`${data.location.localtime}`;
-    icon_w.textContent=`${data.current.condition.icon}`;
+    icon_w.setAttribute("src",data.current.condition.icon)
     humadity.textContent=`${data.current.humidity}%`;
     wind.textContent=`${data.current.wind_degree}km/h`
     temp_max.textContent=`${+data.current.temp_c+5}°`
     console.log(temp_max);
     temp_min.textContent=`${+data.current.temp_c-5}°`
-
+console.log(data.current.condition.icon);
 
 });
 
@@ -49,7 +49,7 @@ input.addEventListener("keyup",(event)=>{
         input.value="";
     }
     
-    search_img.addEventListener("click",getData(input.value))
+    // search_img.addEventListener("click",getData(input.value))
 });
 
 
